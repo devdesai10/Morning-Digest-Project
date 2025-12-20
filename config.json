@@ -5,12 +5,15 @@
     "MLB": ["Yankees", "Nationals"],
     "College": ["Rutgers"]
   },
-  "location": {
-    "lat": 40.742,
-    "lon": -74.006
-  },
+  "locations": [
+    { "label": "Jackson Township, NJ", "query": "Jackson Township, NJ, USA" },
+    { "label": "Herndon, VA",          "query": "Herndon, VA, USA" },
+    { "label": "New Brunswick, NJ",    "query": "New Brunswick, NJ, USA" },
+    { "label": "New York, NY",         "query": "New York, NY, USA" },
+    { "label": "Washington, DC",       "query": "Washington, DC, USA" }
+  ],
   "twilio": {
     "from": "+1XXXXXXXXXX",
-    "to": "+1XXXXXXXXXX"
+    "to": "+18482619962"
   }
 }

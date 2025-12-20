@@ -1,0 +1,10 @@
+this is just for the project structure not really anything code related 
+
+project
+│
+├── config.json
+├── morning_digest.py
+├── sports.py
+├── news.py
+├── weather.py
+└── requirements.txt
