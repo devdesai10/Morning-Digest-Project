@@ -1,0 +1,16 @@
+{
+  "teams": {
+    "NBA": ["Knicks", "Lakers", "Celtics"],
+    "NFL": ["Giants"],
+    "MLB": ["Yankees", "Nationals"],
+    "College": ["Rutgers"]
+  },
+  "location": {
+    "lat": 40.742,
+    "lon": -74.006
+  },
+  "twilio": {
+    "from": "+1XXXXXXXXXX",
+    "to": "+1XXXXXXXXXX"
+  }
+}
