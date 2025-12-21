@@ -1,8 +1,9 @@
 this is just for the project structure not really anything code related 
 
 Morning-Digest-Project/
-├── sports_digest.py
-├── sports.py
+├── config.json
+├── requirements.txt
 ├── notify_discord.py
-└── config.json
+├── sports.py
+└── sports_digest.py
 

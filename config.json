@@ -1,11 +1,20 @@
 {
   "teams": {
-    "NBA": ["Knicks", "Nets", "76ers"],
-    "NFL": ["Giants", "Jets", "Eagles"],
-    "MLB": ["Yankees", "Nationals", "Phillies"],
-    "College": ["Rutgers", "Rowan"]
+    "NBA": ["Knicks", "Lakers", "Celtics"],
+    "NFL": ["Giants"],
+    "MLB": ["Yankees", "Nationals"],
+    "College": ["Rutgers"]
   },
   "discord": {
     "webhook_url": "https://discord.com/api/webhooks/1451971400167591956/FRGcXfARFbQeX3n0DrpGx1JEDfLiE1bXN-hxUJKUJ2NCyj7hzu-KtYG5ZLqZsLiqHLaJ"
+  },
+  "settings": {
+    "timezone": "America/New_York",
+    "high_scoring_thresholds": {
+      "NBA": 230,
+      "NFL": 55,
+      "MLB": 12,
+      "College": 60
+    }
   }
 }
