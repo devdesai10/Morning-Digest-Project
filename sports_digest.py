@@ -1,5 +1,3 @@
-## Main File for the project
-
 import json
 from datetime import datetime
 from notify_discord import send_discord_webhook
@@ -11,10 +9,14 @@ def main():
 
     teams = config["teams"]
     webhook_url = config["discord"]["webhook_url"]
-    tz_name = config.get("settings", {}).get("timezone", "America/New_York")
-    thresholds = config.get("settings", {}).get("high_scoring_thresholds", {})
 
-    yest, today, important = build_sports_digest(teams, tz_name, thresholds)
+    settings = config.get("settings", {})
+    tz_name = settings.get("timezone", "America/New_York")
+    api_key = settings.get("sportsdb_api_key", "123")
+    thresholds = settings.get("high_scoring_thresholds", {})
+
+    # ✅ Correct call signature (4 args)
+    yest, today, important = build_sports_digest(teams, tz_name, api_key, thresholds)
 
     stamp = datetime.now().strftime("%a %b %d")
     body = (
