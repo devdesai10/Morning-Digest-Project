@@ -1,10 +1,10 @@
 {
   "teams": {
-    "NBA": ["Knicks", "Lakers", "Celtics"],
-    "NFL": ["Giants"],
-    "MLB": ["Yankees", "Nationals"],
-    "College": ["Rutgers"]
-  },
+  "NBA": ["Knicks", "76ers", "Nets"],
+  "NFL": ["Giants", "Jets", "Eagles"],
+  "MLB": ["Yankees", "Nationals"],
+  "College": ["Rutgers"]
+},
   "discord": {
     "webhook_url": "https://discord.com/api/webhooks/1451971400167591956/FRGcXfARFbQeX3n0DrpGx1JEDfLiE1bXN-hxUJKUJ2NCyj7hzu-KtYG5ZLqZsLiqHLaJ"
   },

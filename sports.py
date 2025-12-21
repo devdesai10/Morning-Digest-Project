@@ -2,8 +2,8 @@ import requests
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
-SPORTSDB_API_KEY = "1"  # Free demo key
-BASE_URL = f"https://www.thesportsdb.com/api/v1/json/{SPORTSDB_API_KEY}"
+SPORTSDB_API_KEY = "123"  # Free demo key
+BASE_URL = f"https://thesportsdb.com/api/v1/json/{SPORTSDB_API_KEY}"
 
 # These overrides help the team search succeed more often
 TEAM_OVERRIDES = {
@@ -172,10 +172,10 @@ def build_sports_digest(teams_dict: dict, tz_name: str, high_scoring_thresholds:
 
     if not important_lines:
         important_lines.append("• (No high-scoring games detected from yesterday.)")
-        important_lines.append("• (Trades / injuries require a news source — currently disabled for $0 cost.)")
 
     return (
         "\n".join(yesterday_lines) if yesterday_lines else "• (None)",
         "\n".join(today_lines) if today_lines else "• (None)",
         "\n".join(important_lines)
+        "Made By Devan, also fuck you chris"
     )
