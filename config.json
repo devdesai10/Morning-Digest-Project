@@ -5,14 +5,6 @@
     "MLB": ["Yankees", "Nationals", "Phillies"],
     "College": ["Rutgers", "Rowan"]
   },
-  "locations": [
-    { "label": "Jackson Township, NJ", "query": "Jackson Township, NJ, USA" },
-    { "label": "Herndon, VA",          "query": "Herndon, VA, USA" },
-    { "label": "New Brunswick, NJ",    "query": "New Brunswick, NJ, USA" },
-    { "label": "New York, NY",         "query": "New York, NY, USA" },
-    { "label": "Washington, DC",       "query": "Washington, DC, USA" },
-    { "label": "Glassboro, NJ",       "query": "Glassboro, NJ, USA" }
-  ],
   "discord": {
     "webhook_url": "https://discord.com/api/webhooks/1451971400167591956/FRGcXfARFbQeX3n0DrpGx1JEDfLiE1bXN-hxUJKUJ2NCyj7hzu-KtYG5ZLqZsLiqHLaJ"
   }

@@ -4,16 +4,16 @@ from datetime import datetime, timedelta
 SPORTSDB_API_KEY = "1"  # TheSportsDB demo key
 BASE_URL = f"https://www.thesportsdb.com/api/v1/json/{SPORTSDB_API_KEY}"
 
-# Simple thresholds for "high scoring" flags
+# High-scoring thresholds (simple + adjustable)
 HIGH_SCORE_THRESHOLDS = {
-    "NBA": 230,
-    "NFL": 55,
-    "MLB": 12,
-    "College": 60
+    "NBA": 230,      # total points
+    "NFL": 55,       # total points
+    "MLB": 12,       # total runs
+    "College": 60    # total points (mostly football)
 }
 
 TEAM_OVERRIDES = {
-    # Helps TheSportsDB search find Rutgers more reliably
+    # Helps search find Rutgers more reliably sometimes
     "Rutgers": "Rutgers Scarlet Knights"
 }
 
@@ -46,17 +46,18 @@ def _format_final(event):
     home = event.get("strHomeTeam", "?")
     away = event.get("strAwayTeam", "?")
     hs = _safe_int(event.get("intHomeScore"))
-    as_ = _safe_int(event.get("intAwayScore"))
+    a_s = _safe_int(event.get("intAwayScore"))
     date = event.get("dateEvent", "")
-    if hs is None or as_ is None:
+    if hs is None or a_s is None:
         return None
-    return f"{away} {as_} @ {home} {hs} ({date})"
+    return f"{away} {a_s} @ {home} {hs} ({date})"
 
 def _format_upcoming(event):
     home = event.get("strHomeTeam", "?")
     away = event.get("strAwayTeam", "?")
     date = event.get("dateEvent", "")
     time = event.get("strTimeLocal") or event.get("strTime") or ""
+    # Required format: Away vs Home
     return f"{away} vs {home} — {date} {time}".strip()
 
 def build_sports_blocks(teams_dict: dict):
@@ -79,7 +80,7 @@ def build_sports_blocks(teams_dict: dict):
             last_events = _fetch_last_events(team_id)
             next_events = _fetch_next_events(team_id)
 
-            # Yesterday
+            # --- Yesterday: final if played yesterday, else next scheduled ---
             y_found = False
             for e in last_events:
                 d = e.get("dateEvent")
@@ -98,21 +99,20 @@ def build_sports_blocks(teams_dict: dict):
 
                         # High scoring highlight
                         hs = _safe_int(e.get("intHomeScore"))
-                        as_ = _safe_int(e.get("intAwayScore"))
-                        total = (hs or 0) + (as_ or 0)
+                        a_s = _safe_int(e.get("intAwayScore"))
+                        total = (hs or 0) + (a_s or 0)
                         thresh = HIGH_SCORE_THRESHOLDS.get(league)
                         if thresh and total >= thresh:
-                            highlight_lines.append(f"🔥 High scoring ({league}): {final} (Total {total})")
+                            highlight_lines.append(f"🔥 {league} high-scoring: {final} (Total {total})")
                     break
 
             if not y_found:
-                # If no game yesterday, show next scheduled game
                 if next_events:
                     yesterday_lines.append(f"• {t}: Next — {_format_upcoming(next_events[0])}")
                 else:
-                    yesterday_lines.append(f"• {t}: No recent game / no upcoming found")
+                    yesterday_lines.append(f"• {t}: No recent/next game found")
 
-            # Today block (show if game date matches today UTC; otherwise next)
+            # --- Today: game today, else next ---
             t_found = False
             for e in next_events:
                 d = e.get("dateEvent")
@@ -135,10 +135,10 @@ def build_sports_blocks(teams_dict: dict):
                     today_lines.append(f"• {t}: No game today / no upcoming found")
 
     if not highlight_lines:
-        highlight_lines.append("• (No automatic highlights from scores today)")
+        highlight_lines.append("• (No high-scoring games detected from yesterday.)")
 
     return (
-        "\n".join(yesterday_lines) if yesterday_lines else "• (No games)",
-        "\n".join(today_lines) if today_lines else "• (No games)",
+        "\n".join(yesterday_lines) if yesterday_lines else "• (None)",
+        "\n".join(today_lines) if today_lines else "• (None)",
         "\n".join(highlight_lines)
     )
