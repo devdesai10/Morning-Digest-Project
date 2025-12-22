@@ -38,61 +38,6 @@
       "data": {
         "results": [
           {
-            "idEvent": "2357736",
-            "idAPIfootball": "469852",
-            "strEvent": "New York Knicks vs Philadelphia 76ers",
-            "strEventAlternate": "Philadelphia 76ers @ New York Knicks",
-            "strFilename": "NBA 2025-12-20 New York Knicks vs Philadelphia 76ers",
-            "strSport": "Basketball",
-            "idLeague": "4387",
-            "strLeague": "NBA",
-            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
-            "strSeason": "2025-2026",
-            "strDescriptionEN": "",
-            "strHomeTeam": "New York Knicks",
-            "strAwayTeam": "Philadelphia 76ers",
-            "intHomeScore": "107",
-            "intRound": "9",
-            "intAwayScore": "116",
-            "intSpectators": null,
-            "strOfficial": null,
-            "strTimestamp": "2025-12-20T00:00:00",
-            "dateEvent": "2025-12-20",
-            "dateEventLocal": "2025-12-20",
-            "strTime": "00:00:00",
-            "strTimeLocal": "",
-            "strGroup": "",
-            "idHomeTeam": "134862",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png",
-            "idAwayTeam": "134863",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
-            "intScore": null,
-            "intScoreVotes": null,
-            "strResult": " New York Knicks Quarters:<br>29 30 28 20 <br><br>Philadelphia 76ers Quarters:<br>29 28 31 28 ",
-            "idVenue": "16006",
-            "strVenue": "Madison Square Garden",
-            "strCountry": "United States",
-            "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/ipwzca1759258420.jpg",
-            "strSquare": "",
-            "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/te6ljh1759233584.jpg",
-            "strBanner": "",
-            "strMap": null,
-            "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=iiWKfFJ5ahI",
-            "strStatus": "FT",
-            "strPostponed": "no",
-            "strLocked": "unlocked"
-          }
-        ]
-      },
-      "ts": 1766332212
-    },
-    "next:134862": {
-      "data": {
-        "events": [
-          {
             "idEvent": "2357752",
             "idAPIfootball": "469868",
             "strEvent": "New York Knicks vs Miami Heat",
@@ -103,35 +48,90 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "New York Knicks",
             "strAwayTeam": "Miami Heat",
-            "intHomeScore": null,
+            "intHomeScore": "132",
             "intRound": "9",
-            "intAwayScore": null,
+            "intAwayScore": "125",
             "intSpectators": null,
             "strOfficial": null,
             "strTimestamp": "2025-12-21T23:00:00",
             "dateEvent": "2025-12-21",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-21",
             "strTime": "23:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "",
+            "strGroup": "",
             "idHomeTeam": "134862",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png",
             "idAwayTeam": "134882",
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5v67x51547214763.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " New York Knicks Quarters:<br>    <br><br>Miami Heat Quarters:<br>    ",
+            "strResult": "New York Knicks Quarters:<br>30 36 39 27 <br><br>Miami Heat Quarters:<br>37 25 37 26",
             "idVenue": "16006",
             "strVenue": "Madison Square Garden",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/jpg39o1759258445.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/hx8sgx1759233611.jpg",
+            "strBanner": "",
+            "strMap": null,
+            "strTweet1": "",
+            "strVideo": "https://www.youtube.com/watch?v=ZaRrTD3ngao",
+            "strStatus": "FT",
+            "strPostponed": "no",
+            "strLocked": "unlocked"
+          }
+        ]
+      },
+      "ts": 1766408527
+    },
+    "next:134862": {
+      "data": {
+        "events": [
+          {
+            "idEvent": "2357770",
+            "idAPIfootball": "469886",
+            "strEvent": "Minnesota Timberwolves vs New York Knicks",
+            "strEventAlternate": "New York Knicks @ Minnesota Timberwolves",
+            "strFilename": "NBA 2025-12-24 Minnesota Timberwolves vs New York Knicks",
+            "strSport": "Basketball",
+            "idLeague": "4387",
+            "strLeague": "NBA",
+            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+            "strSeason": "2025-2026",
+            "strDescriptionEN": null,
+            "strHomeTeam": "Minnesota Timberwolves",
+            "strAwayTeam": "New York Knicks",
+            "intHomeScore": null,
+            "intRound": "10",
+            "intAwayScore": null,
+            "intSpectators": null,
+            "strOfficial": null,
+            "strTimestamp": "2025-12-24T01:00:00",
+            "dateEvent": "2025-12-24",
+            "dateEventLocal": null,
+            "strTime": "01:00:00",
+            "strTimeLocal": null,
+            "strGroup": null,
+            "idHomeTeam": "134886",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5xpgjg1621594771.png",
+            "idAwayTeam": "134862",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png",
+            "intScore": null,
+            "intScoreVotes": null,
+            "strResult": " Minnesota Timberwolves Quarters:<br>    <br><br>New York Knicks Quarters:<br>    ",
+            "idVenue": "23207",
+            "strVenue": "Target Center",
+            "strCountry": "United States",
+            "strCity": null,
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/cx9wr81759258473.jpg",
+            "strSquare": "",
+            "strFanart": null,
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/z5n72k1759233642.jpg",
             "strBanner": "",
             "strMap": null,
             "strTweet1": null,
@@ -142,66 +142,11 @@
           }
         ]
       },
-      "ts": 1766332213
+      "ts": 1766408528
     },
     "last:134863": {
       "data": {
         "results": [
-          {
-            "idEvent": "2389260",
-            "idAPIfootball": "485827",
-            "strEvent": "Philadelphia 76ers vs Indiana Pacers",
-            "strEventAlternate": "Indiana Pacers @ Philadelphia 76ers",
-            "strFilename": "NBA 2025-12-13 Philadelphia 76ers vs Indiana Pacers",
-            "strSport": "Basketball",
-            "idLeague": "4387",
-            "strLeague": "NBA",
-            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
-            "strSeason": "2025-2026",
-            "strDescriptionEN": "",
-            "strHomeTeam": "Philadelphia 76ers",
-            "strAwayTeam": "Indiana Pacers",
-            "intHomeScore": "115",
-            "intRound": "0",
-            "intAwayScore": "105",
-            "intSpectators": null,
-            "strOfficial": null,
-            "strTimestamp": "2025-12-13T00:00:00",
-            "dateEvent": "2025-12-13",
-            "dateEventLocal": "2025-12-12",
-            "strTime": "00:00:00",
-            "strTimeLocal": "19:00:00",
-            "strGroup": "",
-            "idHomeTeam": "134863",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
-            "idAwayTeam": "134873",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/v6jzgm1503741821.png",
-            "intScore": null,
-            "intScoreVotes": null,
-            "strResult": " Philadelphia 76ers Quarters:<br>34 29 27 25 <br><br>Indiana Pacers Quarters:<br>31 27 32 15 ",
-            "idVenue": "0",
-            "strVenue": "",
-            "strCountry": "United States",
-            "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/o8nay31759258762.jpg",
-            "strSquare": "",
-            "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/88l4951759233971.jpg",
-            "strBanner": "",
-            "strMap": null,
-            "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=tclalW7BE_U",
-            "strStatus": "FT",
-            "strPostponed": "no",
-            "strLocked": "unlocked"
-          }
-        ]
-      },
-      "ts": 1766332214
-    },
-    "next:134863": {
-      "data": {
-        "events": [
           {
             "idEvent": "2357742",
             "idAPIfootball": "469858",
@@ -213,7 +158,7 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "Philadelphia 76ers",
             "strAwayTeam": "Dallas Mavericks",
             "intHomeScore": "121",
@@ -223,10 +168,10 @@
             "strOfficial": null,
             "strTimestamp": "2025-12-21T00:00:00",
             "dateEvent": "2025-12-21",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-21",
             "strTime": "00:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "",
+            "strGroup": "",
             "idHomeTeam": "134863",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
             "idAwayTeam": "134875",
@@ -234,84 +179,84 @@
             "intScore": null,
             "intScoreVotes": null,
             "strResult": " Philadelphia 76ers Quarters:<br>38 30 23 30 <br><br>Dallas Mavericks Quarters:<br>33 29 35 17 ",
-            "idVenue": "19333",
-            "strVenue": "Wells Fargo Center",
+            "idVenue": "0",
+            "strVenue": "",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/o9utpt1759258429.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/5m1fh71759233593.jpg",
             "strBanner": "",
             "strMap": null,
-            "strTweet1": null,
-            "strVideo": null,
+            "strTweet1": "",
+            "strVideo": "https://www.youtube.com/watch?v=xfCcSPpfnRY",
             "strStatus": "FT",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766332214
+      "ts": 1766408529
     },
-    "last:134861": {
+    "next:134863": {
       "data": {
-        "results": [
+        "events": [
           {
-            "idEvent": "2357727",
-            "idAPIfootball": "469843",
-            "strEvent": "Brooklyn Nets vs Miami Heat",
-            "strEventAlternate": "Miami Heat @ Brooklyn Nets",
-            "strFilename": "NBA 2025-12-19 Brooklyn Nets vs Miami Heat",
+            "idEvent": "2357764",
+            "idAPIfootball": "469880",
+            "strEvent": "Philadelphia 76ers vs Brooklyn Nets",
+            "strEventAlternate": "Brooklyn Nets @ Philadelphia 76ers",
+            "strFilename": "NBA 2025-12-24 Philadelphia 76ers vs Brooklyn Nets",
             "strSport": "Basketball",
             "idLeague": "4387",
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": "",
-            "strHomeTeam": "Brooklyn Nets",
-            "strAwayTeam": "Miami Heat",
-            "intHomeScore": "95",
-            "intRound": "9",
-            "intAwayScore": "106",
+            "strDescriptionEN": null,
+            "strHomeTeam": "Philadelphia 76ers",
+            "strAwayTeam": "Brooklyn Nets",
+            "intHomeScore": null,
+            "intRound": "10",
+            "intAwayScore": null,
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-19T00:30:00",
-            "dateEvent": "2025-12-19",
-            "dateEventLocal": "2025-12-19",
-            "strTime": "00:30:00",
-            "strTimeLocal": "",
-            "strGroup": "",
-            "idHomeTeam": "134861",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
-            "idAwayTeam": "134882",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5v67x51547214763.png",
+            "strTimestamp": "2025-12-24T00:00:00",
+            "dateEvent": "2025-12-24",
+            "dateEventLocal": null,
+            "strTime": "00:00:00",
+            "strTimeLocal": null,
+            "strGroup": null,
+            "idHomeTeam": "134863",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
+            "idAwayTeam": "134861",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " Brooklyn Nets Quarters:<br>27 22 24 22 <br><br>Miami Heat Quarters:<br>30 24 23 29 ",
-            "idVenue": "23447",
-            "strVenue": "Barclays Center",
+            "strResult": " Philadelphia 76ers Quarters:<br>    <br><br>Brooklyn Nets Quarters:<br>    ",
+            "idVenue": "19333",
+            "strVenue": "Wells Fargo Center",
             "strCountry": "United States",
-            "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/8z40bx1759258407.jpg",
+            "strCity": null,
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/mouakv1759258463.jpg",
             "strSquare": "",
             "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/rkharg1759233570.jpg",
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mhw4741759233632.jpg",
             "strBanner": "",
             "strMap": null,
-            "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=eF9srTm7Lbc",
-            "strStatus": "FT",
+            "strTweet1": null,
+            "strVideo": null,
+            "strStatus": "NS",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766332215
+      "ts": 1766408529
     },
-    "next:134861": {
+    "last:134861": {
       "data": {
-        "events": [
+        "results": [
           {
             "idEvent": "2357751",
             "idAPIfootball": "469867",
@@ -323,36 +268,91 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "Brooklyn Nets",
             "strAwayTeam": "Toronto Raptors",
-            "intHomeScore": null,
+            "intHomeScore": "96",
             "intRound": "9",
-            "intAwayScore": null,
+            "intAwayScore": "81",
             "intSpectators": null,
             "strOfficial": null,
             "strTimestamp": "2025-12-21T23:00:00",
             "dateEvent": "2025-12-21",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-21",
             "strTime": "23:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "",
+            "strGroup": "",
             "idHomeTeam": "134861",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
             "idAwayTeam": "134864",
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/ax36vz1635070057.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " Brooklyn Nets Quarters:<br>    <br><br>Toronto Raptors Quarters:<br>    ",
+            "strResult": "Brooklyn Nets Quarters:<br>24 25 18 29 <br><br>Toronto Raptors Quarters:<br>18 21 26 16",
             "idVenue": "23447",
             "strVenue": "Barclays Center",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/nnoroe1759258443.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/9wlb3z1759233610.jpg",
             "strBanner": "https://r2.thesportsdb.com/images/media/event/banner/9hgt6h1597840713.jpg",
+            "strMap": null,
+            "strTweet1": "",
+            "strVideo": "https://www.youtube.com/watch?v=EO0JsVZhq5Q",
+            "strStatus": "FT",
+            "strPostponed": "no",
+            "strLocked": "unlocked"
+          }
+        ]
+      },
+      "ts": 1766408530
+    },
+    "next:134861": {
+      "data": {
+        "events": [
+          {
+            "idEvent": "2357764",
+            "idAPIfootball": "469880",
+            "strEvent": "Philadelphia 76ers vs Brooklyn Nets",
+            "strEventAlternate": "Brooklyn Nets @ Philadelphia 76ers",
+            "strFilename": "NBA 2025-12-24 Philadelphia 76ers vs Brooklyn Nets",
+            "strSport": "Basketball",
+            "idLeague": "4387",
+            "strLeague": "NBA",
+            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+            "strSeason": "2025-2026",
+            "strDescriptionEN": null,
+            "strHomeTeam": "Philadelphia 76ers",
+            "strAwayTeam": "Brooklyn Nets",
+            "intHomeScore": null,
+            "intRound": "10",
+            "intAwayScore": null,
+            "intSpectators": null,
+            "strOfficial": null,
+            "strTimestamp": "2025-12-24T00:00:00",
+            "dateEvent": "2025-12-24",
+            "dateEventLocal": null,
+            "strTime": "00:00:00",
+            "strTimeLocal": null,
+            "strGroup": null,
+            "idHomeTeam": "134863",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
+            "idAwayTeam": "134861",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+            "intScore": null,
+            "intScoreVotes": null,
+            "strResult": " Philadelphia 76ers Quarters:<br>    <br><br>Brooklyn Nets Quarters:<br>    ",
+            "idVenue": "19333",
+            "strVenue": "Wells Fargo Center",
+            "strCountry": "United States",
+            "strCity": null,
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/mouakv1759258463.jpg",
+            "strSquare": "",
+            "strFanart": null,
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mhw4741759233632.jpg",
+            "strBanner": "",
             "strMap": null,
             "strTweet1": null,
             "strVideo": null,
@@ -362,66 +362,11 @@
           }
         ]
       },
-      "ts": 1766332216
+      "ts": 1766408530
     },
     "last:134935": {
       "data": {
         "results": [
-          {
-            "idEvent": "2261400",
-            "idAPIfootball": "17527",
-            "strEvent": "New York Giants vs Washington Commanders",
-            "strEventAlternate": "Washington Commanders @ New York Giants",
-            "strFilename": "NFL 2025-12-14 New York Giants vs Washington Commanders",
-            "strSport": "American Football",
-            "idLeague": "4391",
-            "strLeague": "NFL",
-            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png",
-            "strSeason": "2025",
-            "strDescriptionEN": "",
-            "strHomeTeam": "New York Giants",
-            "strAwayTeam": "Washington Commanders",
-            "intHomeScore": "21",
-            "intRound": "15",
-            "intAwayScore": "29",
-            "intSpectators": null,
-            "strOfficial": null,
-            "strTimestamp": "2025-12-14T18:00:00",
-            "dateEvent": "2025-12-14",
-            "dateEventLocal": "2025-12-14",
-            "strTime": "18:00:00",
-            "strTimeLocal": "13:00:00",
-            "strGroup": "",
-            "idHomeTeam": "134935",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/vxppup1423669459.png",
-            "idAwayTeam": "134937",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/rn0c7v1643826119.png",
-            "intScore": null,
-            "intScoreVotes": null,
-            "strResult": " New York Giants Quarter 1:<br>0 3 <br>Quarter 2<br>7 19 <br>Quarter 3<br>7 0 <br>Quarter 4<br>7 7 <br>Overtime<br> ",
-            "idVenue": "15812",
-            "strVenue": "MetLife Stadium",
-            "strCountry": "United States",
-            "strCity": "East Rutherford, NJ",
-            "strPoster": "https://r2.thesportsdb.com/images/media/event/poster/nzrf9x1748646253.jpg",
-            "strSquare": "https://r2.thesportsdb.com/images/media/event/square/ff95g71748648409.jpg",
-            "strFanart": null,
-            "strThumb": "https://r2.thesportsdb.com/images/media/event/thumb/ac4t9n1748641359.jpg",
-            "strBanner": "",
-            "strMap": null,
-            "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=LLh0_OVltD8",
-            "strStatus": "FT",
-            "strPostponed": "no",
-            "strLocked": "unlocked"
-          }
-        ]
-      },
-      "ts": 1766332216
-    },
-    "next:134935": {
-      "data": {
-        "events": [
           {
             "idEvent": "2261418",
             "idAPIfootball": "17545",
@@ -436,9 +381,9 @@
             "strDescriptionEN": "",
             "strHomeTeam": "New York Giants",
             "strAwayTeam": "Minnesota Vikings",
-            "intHomeScore": null,
+            "intHomeScore": "13",
             "intRound": "16",
-            "intAwayScore": null,
+            "intAwayScore": "16",
             "intSpectators": null,
             "strOfficial": null,
             "strTimestamp": "2025-12-21T18:00:00",
@@ -453,7 +398,7 @@
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/qstqqr1421609163.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " New York Giants Quarter 1:<br>  <br>Quarter 2<br>  <br>Quarter 3<br>  <br>Quarter 4<br>  <br>Overtime<br> ",
+            "strResult": " New York Giants Quarter 1:<br>0 3 <br>Quarter 2<br>10 10 <br>Quarter 3<br>0 0 <br>Quarter 4<br>3 3 <br>Overtime<br> ",
             "idVenue": "15812",
             "strVenue": "MetLife Stadium",
             "strCountry": "United States",
@@ -465,6 +410,61 @@
             "strBanner": "",
             "strMap": null,
             "strTweet1": "",
+            "strVideo": "https://www.youtube.com/watch?v=TLg030DBz5s",
+            "strStatus": "FT",
+            "strPostponed": "no",
+            "strLocked": "unlocked"
+          }
+        ]
+      },
+      "ts": 1766408531
+    },
+    "next:134935": {
+      "data": {
+        "events": [
+          {
+            "idEvent": "2261432",
+            "idAPIfootball": "17559",
+            "strEvent": "Las Vegas Raiders vs New York Giants",
+            "strEventAlternate": "New York Giants @ Las Vegas Raiders",
+            "strFilename": "NFL 2025-12-28 Las Vegas Raiders vs New York Giants",
+            "strSport": "American Football",
+            "idLeague": "4391",
+            "strLeague": "NFL",
+            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png",
+            "strSeason": "2025",
+            "strDescriptionEN": "",
+            "strHomeTeam": "Las Vegas Raiders",
+            "strAwayTeam": "New York Giants",
+            "intHomeScore": null,
+            "intRound": "17",
+            "intAwayScore": null,
+            "intSpectators": null,
+            "strOfficial": null,
+            "strTimestamp": "2025-12-28T21:05:00",
+            "dateEvent": "2025-12-28",
+            "dateEventLocal": "2025-12-26",
+            "strTime": "21:05:00",
+            "strTimeLocal": "16:00:00",
+            "strGroup": "",
+            "idHomeTeam": "134932",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/xqusqy1421724291.png",
+            "idAwayTeam": "134935",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/vxppup1423669459.png",
+            "intScore": null,
+            "intScoreVotes": null,
+            "strResult": " Las Vegas Raiders Quarter 1:<br>  <br>Quarter 2<br>  <br>Quarter 3<br>  <br>Quarter 4<br>  <br>Overtime<br> ",
+            "idVenue": "21293",
+            "strVenue": "Allegiant Stadium",
+            "strCountry": "United States",
+            "strCity": "Paradise, NV",
+            "strPoster": "https://r2.thesportsdb.com/images/media/event/poster/0u5psi1748646294.jpg",
+            "strSquare": "https://r2.thesportsdb.com/images/media/event/square/u9c8hm1748648454.jpg",
+            "strFanart": null,
+            "strThumb": "https://r2.thesportsdb.com/images/media/event/thumb/yl0emg1748641405.jpg",
+            "strBanner": "",
+            "strMap": null,
+            "strTweet1": "",
             "strVideo": "",
             "strStatus": "NS",
             "strPostponed": "no",
@@ -472,7 +472,7 @@
           }
         ]
       },
-      "ts": 1766332217
+      "ts": 1766408531
     },
     "last:134921": {
       "data": {
@@ -527,52 +527,52 @@
           }
         ]
       },
-      "ts": 1766332217
+      "ts": 1766408532
     },
     "next:134921": {
       "data": {
         "events": [
           {
-            "idEvent": "2261417",
-            "idAPIfootball": "17544",
-            "strEvent": "New Orleans Saints vs New York Jets",
-            "strEventAlternate": "New York Jets @ New Orleans Saints",
-            "strFilename": "NFL 2025-12-21 New Orleans Saints vs New York Jets",
+            "idEvent": "2261439",
+            "idAPIfootball": "17566",
+            "strEvent": "New York Jets vs New England Patriots",
+            "strEventAlternate": "New England Patriots @ New York Jets",
+            "strFilename": "NFL 2025-12-28 New York Jets vs New England Patriots",
             "strSport": "American Football",
             "idLeague": "4391",
             "strLeague": "NFL",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png",
             "strSeason": "2025",
             "strDescriptionEN": "",
-            "strHomeTeam": "New Orleans Saints",
-            "strAwayTeam": "New York Jets",
+            "strHomeTeam": "New York Jets",
+            "strAwayTeam": "New England Patriots",
             "intHomeScore": null,
-            "intRound": "16",
+            "intRound": "17",
             "intAwayScore": null,
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-21T18:00:00",
-            "dateEvent": "2025-12-21",
-            "dateEventLocal": "2025-12-21",
+            "strTimestamp": "2025-12-28T18:00:00",
+            "dateEvent": "2025-12-28",
+            "dateEventLocal": "2025-12-28",
             "strTime": "18:00:00",
-            "strTimeLocal": "12:00:00",
+            "strTimeLocal": "13:00:00",
             "strGroup": "",
-            "idHomeTeam": "134944",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/nd46c71537821337.png",
-            "idAwayTeam": "134921",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hz92od1607953467.png",
+            "idHomeTeam": "134921",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hz92od1607953467.png",
+            "idAwayTeam": "134920",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/xtwxyt1421431860.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " New Orleans Saints Quarter 1:<br>  <br>Quarter 2<br>  <br>Quarter 3<br>  <br>Quarter 4<br>  <br>Overtime<br> ",
-            "idVenue": "29571",
-            "strVenue": "Caesars Superdome",
+            "strResult": " New York Jets Quarter 1:<br>  <br>Quarter 2<br>  <br>Quarter 3<br>  <br>Quarter 4<br>  <br>Overtime<br> ",
+            "idVenue": "15812",
+            "strVenue": "MetLife Stadium",
             "strCountry": "United States",
-            "strCity": "New Orleans, LA",
-            "strPoster": "https://r2.thesportsdb.com/images/media/event/poster/wd781c1748646275.jpg",
-            "strSquare": "https://r2.thesportsdb.com/images/media/event/square/3ybh1r1748648433.jpg",
+            "strCity": "East Rutherford, NJ",
+            "strPoster": "https://r2.thesportsdb.com/images/media/event/poster/d3g6gp1748646303.jpg",
+            "strSquare": "https://r2.thesportsdb.com/images/media/event/square/dkkcp51748648464.jpg",
             "strFanart": null,
-            "strThumb": "https://r2.thesportsdb.com/images/media/event/thumb/t4fm3v1748641383.jpg",
-            "strBanner": "",
+            "strThumb": "https://r2.thesportsdb.com/images/media/event/thumb/gt2chy1748641416.jpg",
+            "strBanner": "https://r2.thesportsdb.com/images/media/event/banner/p9zywh1659875361.jpg",
             "strMap": null,
             "strTweet1": "",
             "strVideo": "",
@@ -582,7 +582,7 @@
           }
         ]
       },
-      "ts": 1766332218
+      "ts": 1766408532
     },
     "last:135281": {
       "data": {
@@ -637,7 +637,7 @@
           }
         ]
       },
-      "ts": 1766332221
+      "ts": 1766408535
     },
     "next:135281": {
       "data": {
@@ -692,7 +692,7 @@
           }
         ]
       },
-      "ts": 1766332221
+      "ts": 1766408535
     },
     "last:134936": {
       "data": {
@@ -747,7 +747,7 @@
           }
         ]
       },
-      "ts": 1766332218
+      "ts": 1766408533
     },
     "next:134936": {
       "data": {
@@ -802,7 +802,7 @@
           }
         ]
       },
-      "ts": 1766332219
+      "ts": 1766408533
     },
     "last:135260": {
       "data": {
@@ -857,7 +857,7 @@
           }
         ]
       },
-      "ts": 1766332220
+      "ts": 1766408534
     },
     "next:135260": {
       "data": {
@@ -912,7 +912,7 @@
           }
         ]
       },
-      "ts": 1766332220
+      "ts": 1766408534
     }
   }
 }
