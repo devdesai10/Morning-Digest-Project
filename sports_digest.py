@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 from notify_discord import send_discord_webhook
-from sports import build_sports_digest
+from sports import build_digest_blocks
 
 def main():
     with open("config.json", "r") as f:
@@ -13,17 +13,20 @@ def main():
     settings = config.get("settings", {})
     tz_name = settings.get("timezone", "America/New_York")
     api_key = settings.get("sportsdb_api_key", "123")
-    thresholds = settings.get("high_scoring_thresholds", {})
+    top_n = settings.get("top_games_count", 3)
 
-    # ✅ Correct call signature (4 args)
-    yest, today, important = build_sports_digest(teams, tz_name, api_key, thresholds)
+    favorites_block, top_games_block = build_digest_blocks(
+        teams_dict=teams,
+        tz_name=tz_name,
+        api_key=api_key,
+        top_games_count=top_n
+    )
 
     stamp = datetime.now().strftime("%a %b %d")
     body = (
         f"🏟️ Sports Digest — {stamp}\n\n"
-        f"**Yesterday**\n{yest}\n\n"
-        f"**Today**\n{today}\n\n"
-        f"**Important Events**\n{important}"
+        f"**Favorite Teams**\n{favorites_block}\n\n"
+        f"**Top Games**\n{top_games_block}"
     )
 
     send_discord_webhook(webhook_url, body)
