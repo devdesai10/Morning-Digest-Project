@@ -1,3 +1,43 @@
 /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/devandesai/Documents/GitHub/Morning-Digest-Project/sports_digest.py': [Errno 1] Operation not permitted
 === CRON RUN Tue Dec 23 08:00:02 EST 2025 ===
 /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/devandesai/Documents/GitHub/Morning-Digest-Project/sports_digest.py': [Errno 1] Operation not permitted
+=== MANUAL TEST Tue Dec 23 08:35:01 EST 2025 ===
+Traceback (most recent call last):
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 33, in <module>
+    main()
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 19, in main
+    yest, today, important = build_sports_digest(teams, tz_name, api_key, thresholds)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 243, in build_sports_digest
+    next_events = _get_next_events(session, base_url, cache, team_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 177, in _get_next_events
+    data = _get_events_cached(session, base_url, cache, key, "eventsnext.php", {"id": team_id})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 165, in _get_events_cached
+    data = _request_json(session, f"{base_url}/{url_path}", params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 84, in _request_json
+    time.sleep(sleep_s)
+KeyboardInterrupt
+=== MANUAL TEST Tue Dec 23 08:35:32 EST 2025 ===
+Traceback (most recent call last):
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 33, in <module>
+    main()
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 19, in main
+    yest, today, important = build_sports_digest(teams, tz_name, api_key, thresholds)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 243, in build_sports_digest
+    next_events = _get_next_events(session, base_url, cache, team_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 177, in _get_next_events
+    data = _get_events_cached(session, base_url, cache, key, "eventsnext.php", {"id": team_id})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 165, in _get_events_cached
+    data = _request_json(session, f"{base_url}/{url_path}", params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports.py", line 84, in _request_json
+    time.sleep(sleep_s)
+KeyboardInterrupt
+=== MANUAL TEST Tue Dec 23 08:35:48 EST 2025 ===
+✅ Posted sports digest to Discord!
