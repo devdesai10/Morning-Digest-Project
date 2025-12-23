@@ -68,7 +68,7 @@
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5v67x51547214763.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": "New York Knicks Quarters:<br>30 36 39 27 <br><br>Miami Heat Quarters:<br>37 25 37 26",
+            "strResult": " New York Knicks Quarters:<br>30 36 39 27 <br><br>Miami Heat Quarters:<br>37 25 37 26 ",
             "idVenue": "16006",
             "strVenue": "Madison Square Garden",
             "strCountry": "United States",
@@ -87,7 +87,7 @@
           }
         ]
       },
-      "ts": 1766408527
+      "ts": 1766495092
     },
     "next:134862": {
       "data": {
@@ -103,7 +103,7 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "Minnesota Timberwolves",
             "strAwayTeam": "New York Knicks",
             "intHomeScore": null,
@@ -113,10 +113,10 @@
             "strOfficial": null,
             "strTimestamp": "2025-12-24T01:00:00",
             "dateEvent": "2025-12-24",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-23",
             "strTime": "01:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "19:00:00",
+            "strGroup": "",
             "idHomeTeam": "134886",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5xpgjg1621594771.png",
             "idAwayTeam": "134862",
@@ -127,22 +127,22 @@
             "idVenue": "23207",
             "strVenue": "Target Center",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/cx9wr81759258473.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/z5n72k1759233642.jpg",
             "strBanner": "",
             "strMap": null,
-            "strTweet1": null,
-            "strVideo": null,
+            "strTweet1": "",
+            "strVideo": "",
             "strStatus": "NS",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766408528
+      "ts": 1766495094
     },
     "last:134863": {
       "data": {
@@ -197,7 +197,7 @@
           }
         ]
       },
-      "ts": 1766408529
+      "ts": 1766495094
     },
     "next:134863": {
       "data": {
@@ -213,7 +213,7 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "Philadelphia 76ers",
             "strAwayTeam": "Brooklyn Nets",
             "intHomeScore": null,
@@ -223,10 +223,10 @@
             "strOfficial": null,
             "strTimestamp": "2025-12-24T00:00:00",
             "dateEvent": "2025-12-24",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-23",
             "strTime": "00:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "19:00:00",
+            "strGroup": "",
             "idHomeTeam": "134863",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
             "idAwayTeam": "134861",
@@ -234,25 +234,25 @@
             "intScore": null,
             "intScoreVotes": null,
             "strResult": " Philadelphia 76ers Quarters:<br>    <br><br>Brooklyn Nets Quarters:<br>    ",
-            "idVenue": "19333",
-            "strVenue": "Wells Fargo Center",
+            "idVenue": "0",
+            "strVenue": "",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/mouakv1759258463.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mhw4741759233632.jpg",
             "strBanner": "",
             "strMap": null,
-            "strTweet1": null,
-            "strVideo": null,
+            "strTweet1": "",
+            "strVideo": "",
             "strStatus": "NS",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766408529
+      "ts": 1766495095
     },
     "last:134861": {
       "data": {
@@ -288,7 +288,7 @@
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/ax36vz1635070057.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": "Brooklyn Nets Quarters:<br>24 25 18 29 <br><br>Toronto Raptors Quarters:<br>18 21 26 16",
+            "strResult": " Brooklyn Nets Quarters:<br>24 25 18 29 <br><br>Toronto Raptors Quarters:<br>18 21 26 16 ",
             "idVenue": "23447",
             "strVenue": "Barclays Center",
             "strCountry": "United States",
@@ -307,7 +307,7 @@
           }
         ]
       },
-      "ts": 1766408530
+      "ts": 1766495096
     },
     "next:134861": {
       "data": {
@@ -323,7 +323,7 @@
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
-            "strDescriptionEN": null,
+            "strDescriptionEN": "",
             "strHomeTeam": "Philadelphia 76ers",
             "strAwayTeam": "Brooklyn Nets",
             "intHomeScore": null,
@@ -333,10 +333,10 @@
             "strOfficial": null,
             "strTimestamp": "2025-12-24T00:00:00",
             "dateEvent": "2025-12-24",
-            "dateEventLocal": null,
+            "dateEventLocal": "2025-12-23",
             "strTime": "00:00:00",
-            "strTimeLocal": null,
-            "strGroup": null,
+            "strTimeLocal": "19:00:00",
+            "strGroup": "",
             "idHomeTeam": "134863",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
             "idAwayTeam": "134861",
@@ -344,25 +344,25 @@
             "intScore": null,
             "intScoreVotes": null,
             "strResult": " Philadelphia 76ers Quarters:<br>    <br><br>Brooklyn Nets Quarters:<br>    ",
-            "idVenue": "19333",
-            "strVenue": "Wells Fargo Center",
+            "idVenue": "0",
+            "strVenue": "",
             "strCountry": "United States",
-            "strCity": null,
+            "strCity": "",
             "strPoster": "https://www.thesportsdb.com/images/media/event/poster/mouakv1759258463.jpg",
             "strSquare": "",
             "strFanart": null,
             "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mhw4741759233632.jpg",
             "strBanner": "",
             "strMap": null,
-            "strTweet1": null,
-            "strVideo": null,
+            "strTweet1": "",
+            "strVideo": "",
             "strStatus": "NS",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766408530
+      "ts": 1766495097
     },
     "last:134935": {
       "data": {
@@ -417,7 +417,7 @@
           }
         ]
       },
-      "ts": 1766408531
+      "ts": 1766495098
     },
     "next:134935": {
       "data": {
@@ -472,7 +472,7 @@
           }
         ]
       },
-      "ts": 1766408531
+      "ts": 1766495099
     },
     "last:134921": {
       "data": {
@@ -527,7 +527,7 @@
           }
         ]
       },
-      "ts": 1766408532
+      "ts": 1766495099
     },
     "next:134921": {
       "data": {
@@ -582,7 +582,7 @@
           }
         ]
       },
-      "ts": 1766408532
+      "ts": 1766495100
     },
     "last:135281": {
       "data": {
@@ -637,7 +637,7 @@
           }
         ]
       },
-      "ts": 1766408535
+      "ts": 1766495103
     },
     "next:135281": {
       "data": {
@@ -692,7 +692,7 @@
           }
         ]
       },
-      "ts": 1766408535
+      "ts": 1766495104
     },
     "last:134936": {
       "data": {
@@ -747,7 +747,7 @@
           }
         ]
       },
-      "ts": 1766408533
+      "ts": 1766495101
     },
     "next:134936": {
       "data": {
@@ -802,7 +802,7 @@
           }
         ]
       },
-      "ts": 1766408533
+      "ts": 1766495102
     },
     "last:135260": {
       "data": {
@@ -857,7 +857,7 @@
           }
         ]
       },
-      "ts": 1766408534
+      "ts": 1766495102
     },
     "next:135260": {
       "data": {
@@ -912,7 +912,7 @@
           }
         ]
       },
-      "ts": 1766408534
+      "ts": 1766495103
     }
   }
 }

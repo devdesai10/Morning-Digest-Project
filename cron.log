@@ -1,1 +1,3 @@
 /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/devandesai/Documents/GitHub/Morning-Digest-Project/sports_digest.py': [Errno 1] Operation not permitted
+=== CRON RUN Tue Dec 23 08:00:02 EST 2025 ===
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/devandesai/Documents/GitHub/Morning-Digest-Project/sports_digest.py': [Errno 1] Operation not permitted

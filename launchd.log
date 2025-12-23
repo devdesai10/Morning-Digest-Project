@@ -1,0 +1,7 @@
+=== RUN Tue Dec 23 08:22:58 EST 2025 ===
+Traceback (most recent call last):
+  File "/Users/devandesai/Documents/GitHub/Morning-Digest-Project/sports_digest.py", line 3, in <module>
+    from notify_discord import send_discord_webhook
+  File "/Users/devandesai/Documents/GitHub/Morning-Digest-Project/notify_discord.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
