@@ -1,10 +1,15 @@
 import json
 from datetime import datetime
+from pathlib import Path
+
 from notify_discord import send_discord_webhook
-from sports import build_digest_blocks
+from sports import build_digest_blocks  # or whatever your current function is
 
 def main():
-    with open("config.json", "r") as f:
+    base_dir = Path(__file__).resolve().parent
+    config_path = base_dir / "config.json"
+
+    with open(config_path, "r") as f:
         config = json.load(f)
 
     teams = config["teams"]
@@ -25,7 +30,7 @@ def main():
     stamp = datetime.now().strftime("%a %b %d")
     body = (
         f"🏟️ Sports Digest — {stamp}\n\n"
-        f"**Favorite Teams**\n{favorites_block}\n\n"
+        f"⭐️ **Favorite Teams**\n{favorites_block}\n\n"
         f"**Top Games**\n{top_games_block}"
     )
 

@@ -41,3 +41,11 @@ Traceback (most recent call last):
 KeyboardInterrupt
 === MANUAL TEST Tue Dec 23 08:35:48 EST 2025 ===
 ✅ Posted sports digest to Discord!
+=== CRON FIRED Wed Dec 24 08:00:01 EST 2025 ===
+Traceback (most recent call last):
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 36, in <module>
+    main()
+  File "/Users/devandesai/morning-digest/Morning-Digest-Project/sports_digest.py", line 7, in main
+    with open("config.json", "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
