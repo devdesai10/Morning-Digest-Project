@@ -38,11 +38,11 @@
       "data": {
         "results": [
           {
-            "idEvent": "2357752",
-            "idAPIfootball": "469868",
-            "strEvent": "New York Knicks vs Miami Heat",
-            "strEventAlternate": "Miami Heat @ New York Knicks",
-            "strFilename": "NBA 2025-12-21 New York Knicks vs Miami Heat",
+            "idEvent": "2357777",
+            "idAPIfootball": "469893",
+            "strEvent": "New York Knicks vs Cleveland Cavaliers",
+            "strEventAlternate": "Cleveland Cavaliers @ New York Knicks",
+            "strFilename": "NBA 2025-12-25 New York Knicks vs Cleveland Cavaliers",
             "strSport": "Basketball",
             "idLeague": "4387",
             "strLeague": "NBA",
@@ -50,158 +50,103 @@
             "strSeason": "2025-2026",
             "strDescriptionEN": "",
             "strHomeTeam": "New York Knicks",
-            "strAwayTeam": "Miami Heat",
-            "intHomeScore": "132",
-            "intRound": "9",
-            "intAwayScore": "125",
+            "strAwayTeam": "Cleveland Cavaliers",
+            "intHomeScore": "126",
+            "intRound": "10",
+            "intAwayScore": "124",
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-21T23:00:00",
-            "dateEvent": "2025-12-21",
-            "dateEventLocal": "2025-12-21",
-            "strTime": "23:00:00",
-            "strTimeLocal": "",
+            "strTimestamp": "2025-12-25T17:00:00",
+            "dateEvent": "2025-12-25",
+            "dateEventLocal": "2025-12-25",
+            "strTime": "17:00:00",
+            "strTimeLocal": "12:00:00",
             "strGroup": "",
             "idHomeTeam": "134862",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png",
-            "idAwayTeam": "134882",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5v67x51547214763.png",
+            "idAwayTeam": "134871",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/tys75k1664478652.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " New York Knicks Quarters:<br>30 36 39 27 <br><br>Miami Heat Quarters:<br>37 25 37 26 ",
+            "strResult": " New York Knicks Quarters:<br>23 37 24 42 <br><br>Cleveland Cavaliers Quarters:<br>38 20 38 28 ",
             "idVenue": "16006",
             "strVenue": "Madison Square Garden",
             "strCountry": "United States",
             "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/jpg39o1759258445.jpg",
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/ukwr6c1759258484.jpg",
             "strSquare": "",
             "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/hx8sgx1759233611.jpg",
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/sewvvr1759233654.jpg",
             "strBanner": "",
             "strMap": null,
             "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=ZaRrTD3ngao",
+            "strVideo": "",
             "strStatus": "FT",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766581673
+      "ts": 1766926803
     },
     "next:134862": {
       "data": {
         "events": [
           {
-            "idEvent": "2357770",
-            "idAPIfootball": "469886",
-            "strEvent": "Minnesota Timberwolves vs New York Knicks",
-            "strEventAlternate": "New York Knicks @ Minnesota Timberwolves",
-            "strFilename": "NBA 2025-12-24 Minnesota Timberwolves vs New York Knicks",
+            "idEvent": "2357799",
+            "idAPIfootball": "469915",
+            "strEvent": "Atlanta Hawks vs New York Knicks",
+            "strEventAlternate": "New York Knicks @ Atlanta Hawks",
+            "strFilename": "NBA 2025-12-28 Atlanta Hawks vs New York Knicks",
             "strSport": "Basketball",
             "idLeague": "4387",
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
             "strDescriptionEN": "",
-            "strHomeTeam": "Minnesota Timberwolves",
+            "strHomeTeam": "Atlanta Hawks",
             "strAwayTeam": "New York Knicks",
-            "intHomeScore": "115",
+            "intHomeScore": "125",
             "intRound": "10",
-            "intAwayScore": "104",
+            "intAwayScore": "128",
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-24T01:00:00",
-            "dateEvent": "2025-12-24",
-            "dateEventLocal": "2025-12-23",
+            "strTimestamp": "2025-12-28T01:00:00",
+            "dateEvent": "2025-12-28",
+            "dateEventLocal": "2025-12-27",
             "strTime": "01:00:00",
             "strTimeLocal": "19:00:00",
             "strGroup": "",
-            "idHomeTeam": "134886",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5xpgjg1621594771.png",
+            "idHomeTeam": "134880",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/q3bx641635067495.png",
             "idAwayTeam": "134862",
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/wyhpuf1511810435.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": "Minnesota Timberwolves Quarters:<br>31 27 27 30 <br><br>New York Knicks Quarters:<br>28 24 27 25",
-            "idVenue": "23207",
-            "strVenue": "Target Center",
+            "strResult": " Atlanta Hawks Quarters:<br>27 28 34 36 <br><br>New York Knicks Quarters:<br>33 35 30 30 ",
+            "idVenue": "21308",
+            "strVenue": "State Farm Arena",
             "strCountry": "United States",
             "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/cx9wr81759258473.jpg",
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/d4c22z1759258517.jpg",
             "strSquare": "",
             "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/z5n72k1759233642.jpg",
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mq0ujl1759233691.jpg",
             "strBanner": "",
             "strMap": null,
             "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=uG4saUqCmaM",
+            "strVideo": "",
             "strStatus": "FT",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766581673
+      "ts": 1766926804
     },
     "last:134863": {
       "data": {
         "results": [
-          {
-            "idEvent": "2357742",
-            "idAPIfootball": "469858",
-            "strEvent": "Philadelphia 76ers vs Dallas Mavericks",
-            "strEventAlternate": "Dallas Mavericks @ Philadelphia 76ers",
-            "strFilename": "NBA 2025-12-21 Philadelphia 76ers vs Dallas Mavericks",
-            "strSport": "Basketball",
-            "idLeague": "4387",
-            "strLeague": "NBA",
-            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
-            "strSeason": "2025-2026",
-            "strDescriptionEN": "",
-            "strHomeTeam": "Philadelphia 76ers",
-            "strAwayTeam": "Dallas Mavericks",
-            "intHomeScore": "121",
-            "intRound": "9",
-            "intAwayScore": "114",
-            "intSpectators": null,
-            "strOfficial": null,
-            "strTimestamp": "2025-12-21T00:00:00",
-            "dateEvent": "2025-12-21",
-            "dateEventLocal": "2025-12-21",
-            "strTime": "00:00:00",
-            "strTimeLocal": "",
-            "strGroup": "",
-            "idHomeTeam": "134863",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
-            "idAwayTeam": "134875",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/yqrxrs1420568796.png",
-            "intScore": null,
-            "intScoreVotes": null,
-            "strResult": " Philadelphia 76ers Quarters:<br>38 30 23 30 <br><br>Dallas Mavericks Quarters:<br>33 29 35 17 ",
-            "idVenue": "0",
-            "strVenue": "",
-            "strCountry": "United States",
-            "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/o9utpt1759258429.jpg",
-            "strSquare": "",
-            "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/5m1fh71759233593.jpg",
-            "strBanner": "",
-            "strMap": null,
-            "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=xfCcSPpfnRY",
-            "strStatus": "FT",
-            "strPostponed": "no",
-            "strLocked": "unlocked"
-          }
-        ]
-      },
-      "ts": 1766581674
-    },
-    "next:134863": {
-      "data": {
-        "events": [
           {
             "idEvent": "2357764",
             "idAPIfootball": "469880",
@@ -233,7 +178,7 @@
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": "Philadelphia 76ers Quarters:<br>27 30 20 29 <br><br>Brooklyn Nets Quarters:<br>27 36 26 25",
+            "strResult": " Philadelphia 76ers Quarters:<br>27 30 20 29 <br><br>Brooklyn Nets Quarters:<br>27 36 26 25 ",
             "idVenue": "0",
             "strVenue": "",
             "strCountry": "United States",
@@ -252,7 +197,62 @@
           }
         ]
       },
-      "ts": 1766581674
+      "ts": 1766926805
+    },
+    "next:134863": {
+      "data": {
+        "events": [
+          {
+            "idEvent": "2357800",
+            "idAPIfootball": "469916",
+            "strEvent": "Oklahoma City Thunder vs Philadelphia 76ers",
+            "strEventAlternate": "Philadelphia 76ers @ Oklahoma City Thunder",
+            "strFilename": "NBA 2025-12-28 Oklahoma City Thunder vs Philadelphia 76ers",
+            "strSport": "Basketball",
+            "idLeague": "4387",
+            "strLeague": "NBA",
+            "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+            "strSeason": "2025-2026",
+            "strDescriptionEN": "",
+            "strHomeTeam": "Oklahoma City Thunder",
+            "strAwayTeam": "Philadelphia 76ers",
+            "intHomeScore": null,
+            "intRound": "10",
+            "intAwayScore": null,
+            "intSpectators": null,
+            "strOfficial": null,
+            "strTimestamp": "2025-12-28T20:30:00",
+            "dateEvent": "2025-12-28",
+            "dateEventLocal": "2025-12-27",
+            "strTime": "20:30:00",
+            "strTimeLocal": "19:00:00",
+            "strGroup": "",
+            "idHomeTeam": "134887",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/27v8861746610370.png",
+            "idAwayTeam": "134863",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
+            "intScore": null,
+            "intScoreVotes": null,
+            "strResult": " Oklahoma City Thunder Quarters:<br>    <br><br>Philadelphia 76ers Quarters:<br>    ",
+            "idVenue": "24852",
+            "strVenue": "Paycom Center",
+            "strCountry": "United States",
+            "strCity": "",
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/lnp4a81759258518.jpg",
+            "strSquare": "",
+            "strFanart": null,
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/15txa01759233693.jpg",
+            "strBanner": "",
+            "strMap": null,
+            "strTweet1": "",
+            "strVideo": "",
+            "strStatus": "NS",
+            "strPostponed": "no",
+            "strLocked": "unlocked"
+          }
+        ]
+      },
+      "ts": 1766926806
     },
     "last:134861": {
       "data": {
@@ -307,62 +307,62 @@
           }
         ]
       },
-      "ts": 1766581675
+      "ts": 1766926806
     },
     "next:134861": {
       "data": {
         "events": [
           {
-            "idEvent": "2357764",
-            "idAPIfootball": "469880",
-            "strEvent": "Philadelphia 76ers vs Brooklyn Nets",
-            "strEventAlternate": "Brooklyn Nets @ Philadelphia 76ers",
-            "strFilename": "NBA 2025-12-24 Philadelphia 76ers vs Brooklyn Nets",
+            "idEvent": "2357795",
+            "idAPIfootball": "469911",
+            "strEvent": "Minnesota Timberwolves vs Brooklyn Nets",
+            "strEventAlternate": "Brooklyn Nets @ Minnesota Timberwolves",
+            "strFilename": "NBA 2025-12-28 Minnesota Timberwolves vs Brooklyn Nets",
             "strSport": "Basketball",
             "idLeague": "4387",
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
             "strDescriptionEN": "",
-            "strHomeTeam": "Philadelphia 76ers",
+            "strHomeTeam": "Minnesota Timberwolves",
             "strAwayTeam": "Brooklyn Nets",
-            "intHomeScore": "106",
+            "intHomeScore": "107",
             "intRound": "10",
-            "intAwayScore": "114",
+            "intAwayScore": "123",
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-24T00:00:00",
-            "dateEvent": "2025-12-24",
-            "dateEventLocal": "2025-12-23",
-            "strTime": "00:00:00",
+            "strTimestamp": "2025-12-28T01:00:00",
+            "dateEvent": "2025-12-28",
+            "dateEventLocal": "2025-12-27",
+            "strTime": "01:00:00",
             "strTimeLocal": "19:00:00",
             "strGroup": "",
-            "idHomeTeam": "134863",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/71545f1518464849.png",
+            "idHomeTeam": "134886",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/5xpgjg1621594771.png",
             "idAwayTeam": "134861",
             "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": "Philadelphia 76ers Quarters:<br>27 30 20 29 <br><br>Brooklyn Nets Quarters:<br>27 36 26 25",
-            "idVenue": "0",
-            "strVenue": "",
+            "strResult": " Minnesota Timberwolves Quarters:<br>30 33 23 21 <br><br>Brooklyn Nets Quarters:<br>33 29 36 25 ",
+            "idVenue": "23207",
+            "strVenue": "Target Center",
             "strCountry": "United States",
             "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/mouakv1759258463.jpg",
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/zo6twu1759258511.jpg",
             "strSquare": "",
             "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/mhw4741759233632.jpg",
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/druvau1759233685.jpg",
             "strBanner": "",
             "strMap": null,
             "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=2MFmXcufluk",
+            "strVideo": "",
             "strStatus": "FT",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766581675
+      "ts": 1766926807
     },
     "last:134935": {
       "data": {
@@ -417,7 +417,7 @@
           }
         ]
       },
-      "ts": 1766581676
+      "ts": 1766926807
     },
     "next:134935": {
       "data": {
@@ -443,9 +443,9 @@
             "strOfficial": null,
             "strTimestamp": "2025-12-28T21:05:00",
             "dateEvent": "2025-12-28",
-            "dateEventLocal": "2025-12-26",
+            "dateEventLocal": "2025-12-28",
             "strTime": "21:05:00",
-            "strTimeLocal": "16:00:00",
+            "strTimeLocal": "13:05:00",
             "strGroup": "",
             "idHomeTeam": "134932",
             "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/xqusqy1421724291.png",
@@ -472,7 +472,7 @@
           }
         ]
       },
-      "ts": 1766581676
+      "ts": 1766926807
     },
     "last:134921": {
       "data": {
@@ -527,7 +527,7 @@
           }
         ]
       },
-      "ts": 1766581677
+      "ts": 1766926808
     },
     "next:134921": {
       "data": {
@@ -582,7 +582,7 @@
           }
         ]
       },
-      "ts": 1766581677
+      "ts": 1766926808
     },
     "last:135281": {
       "data": {
@@ -637,7 +637,7 @@
           }
         ]
       },
-      "ts": 1766581680
+      "ts": 1766926810
     },
     "next:135281": {
       "data": {
@@ -692,7 +692,7 @@
           }
         ]
       },
-      "ts": 1766581680
+      "ts": 1766667609
     },
     "last:134936": {
       "data": {
@@ -747,7 +747,7 @@
           }
         ]
       },
-      "ts": 1766581678
+      "ts": 1766926809
     },
     "next:134936": {
       "data": {
@@ -802,7 +802,7 @@
           }
         ]
       },
-      "ts": 1766581678
+      "ts": 1766926809
     },
     "last:135260": {
       "data": {
@@ -857,7 +857,7 @@
           }
         ]
       },
-      "ts": 1766581679
+      "ts": 1766926809
     },
     "next:135260": {
       "data": {
@@ -912,62 +912,62 @@
           }
         ]
       },
-      "ts": 1766581679
+      "ts": 1766926810
     },
     "pastleague:4387": {
       "data": {
         "events": [
           {
-            "idEvent": "2357762",
-            "idAPIfootball": "469878",
-            "strEvent": "Portland Trail Blazers vs Detroit Pistons",
-            "strEventAlternate": "Detroit Pistons @ Portland Trail Blazers",
-            "strFilename": "NBA 2025-12-23 Portland Trail Blazers vs Detroit Pistons",
+            "idEvent": "2357776",
+            "idAPIfootball": "469892",
+            "strEvent": "Los Angeles Clippers vs Houston Rockets",
+            "strEventAlternate": "Houston Rockets @ Los Angeles Clippers",
+            "strFilename": "NBA 2025-12-24 Los Angeles Clippers vs Houston Rockets",
             "strSport": "Basketball",
             "idLeague": "4387",
             "strLeague": "NBA",
             "strLeagueBadge": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
             "strSeason": "2025-2026",
             "strDescriptionEN": "",
-            "strHomeTeam": "Portland Trail Blazers",
-            "strAwayTeam": "Detroit Pistons",
-            "intHomeScore": "102",
+            "strHomeTeam": "Los Angeles Clippers",
+            "strAwayTeam": "Houston Rockets",
+            "intHomeScore": "128",
             "intRound": "10",
-            "intAwayScore": "110",
+            "intAwayScore": "108",
             "intSpectators": null,
             "strOfficial": null,
-            "strTimestamp": "2025-12-23T03:00:00",
-            "dateEvent": "2025-12-23",
-            "dateEventLocal": "2025-12-22",
-            "strTime": "03:00:00",
-            "strTimeLocal": "19:00:00",
+            "strTimestamp": "2025-12-24T03:30:00",
+            "dateEvent": "2025-12-24",
+            "dateEventLocal": "2025-12-23",
+            "strTime": "03:30:00",
+            "strTimeLocal": "19:30:00",
             "strGroup": "",
-            "idHomeTeam": "134888",
-            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/ljkd1r1696445959.png",
-            "idAwayTeam": "134872",
-            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+            "idHomeTeam": "134866",
+            "strHomeTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+            "idAwayTeam": "134876",
+            "strAwayTeamBadge": "https://r2.thesportsdb.com/images/media/team/badge/yezpho1597486052.png",
             "intScore": null,
             "intScoreVotes": null,
-            "strResult": " Portland Trail Blazers Quarters:<br>26 25 27 24 <br><br>Detroit Pistons Quarters:<br>30 31 34 15 ",
-            "idVenue": "24818",
-            "strVenue": "Moda Center",
+            "strResult": " Los Angeles Clippers Quarters:<br>29 34 35 30 <br><br>Houston Rockets Quarters:<br>35 23 24 26 ",
+            "idVenue": "30970",
+            "strVenue": "Intuit Dome",
             "strCountry": "United States",
             "strCity": "",
-            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/wcsuw41759258460.jpg",
+            "strPoster": "https://www.thesportsdb.com/images/media/event/poster/7l7dtk1759258482.jpg",
             "strSquare": "",
             "strFanart": null,
-            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/e16utm1759233628.jpg",
+            "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/oo4ims1759233652.jpg",
             "strBanner": "",
             "strMap": null,
             "strTweet1": "",
-            "strVideo": "https://www.youtube.com/watch?v=5BnTEw9CQtc",
+            "strVideo": "https://www.youtube.com/watch?v=FpSCz-UG7_Y",
             "strStatus": "FT",
             "strPostponed": "no",
             "strLocked": "unlocked"
           }
         ]
       },
-      "ts": 1766581681
+      "ts": 1766667609
     },
     "pastleague:4391": {
       "data": {
@@ -1022,7 +1022,7 @@
           }
         ]
       },
-      "ts": 1766581681
+      "ts": 1766667610
     },
     "pastleague:4424": {
       "data": {
@@ -1077,7 +1077,7 @@
           }
         ]
       },
-      "ts": 1766581682
+      "ts": 1766667610
     }
   }
 }

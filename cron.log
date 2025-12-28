@@ -49,3 +49,9 @@ Traceback (most recent call last):
     with open("config.json", "r") as f:
          ^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+=== CRON FIRED Thu Dec 25 08:00:02 EST 2025 ===
+✅ Posted sports digest to Discord!
+=== CRON FIRED Fri Dec 26 08:00:02 EST 2025 ===
+✅ Posted sports digest to Discord!
+=== CRON FIRED Sun Dec 28 08:00:02 EST 2025 ===
+✅ Posted sports digest to Discord!
