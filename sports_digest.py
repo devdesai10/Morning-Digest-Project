@@ -12,24 +12,15 @@ def main():
     with open(config_path, "r") as f:
         config = json.load(f)
 
-    teams = config["teams"]
     webhook_url = config["discord"]["webhook_url"]
-
     settings = config.get("settings", {})
     tz_name = settings.get("timezone", "America/New_York")
     api_key = settings.get("sportsdb_api_key", "123")
 
-    todays_games = build_todays_games(
-        teams_dict=teams,
-        tz_name=tz_name,
-        api_key=api_key
-    )
+    todays_games = build_todays_games(tz_name=tz_name, api_key=api_key)
 
     stamp = datetime.now().strftime("%a %b %d")
-    body = (
-        f"🏟️ Sports Digest — {stamp}\n\n"
-        f"**Today's Games**\n{todays_games}"
-    )
+    body = f"🏟️ Sports Digest - {stamp}\n\n{todays_games}"
 
     send_discord_webhook(webhook_url, body)
     print("✅ Posted sports digest to Discord!")
