@@ -12,15 +12,15 @@ _SCRIPT_DIR = Path(__file__).resolve().parent
 # --- League config ---
 # Each entry: display name -> TheSportsDB league ID
 LEAGUES = {
-    "NBA":                  4387,
-    "NFL":                  4391,
-    "MLB":                  4424,
-    "Premier League":       4328,
-    "F1":                   4370,
-    "UFC":                  4443,
-    "World Cup":            4429,
-    "WBC":                  5755,
-    "FIBA World Cup":       4549,
+    "🏀 NBA":              4387,
+    "🏈 NFL":              4391,
+    "⚾ MLB":              4424,
+    "⚽ Premier League":   4328,
+    "🏎️ F1":               4370,
+    "🥊 UFC":              4443,
+    "⚽ World Cup":        4429,
+    "⚾ WBC":              5755,
+    "🏀 FIBA World Cup":   4549,
 }
 
 # --- Request / cache settings ---
@@ -209,7 +209,7 @@ def build_todays_games(tz_name: str, api_key: str) -> str:
             if not events:
                 continue
 
-            lines = [f"{league_name} -"]
+            lines = [f"**{league_name}**"]
             for e in events:
                 lines.append(_format_event_line(e, tz_name))
 

@@ -20,7 +20,7 @@ def main():
     todays_games = build_todays_games(tz_name=tz_name, api_key=api_key)
 
     stamp = datetime.now().strftime("%a %b %d")
-    body = f"🏟️ Sports Digest - {stamp}\n\n{todays_games}"
+    body = f"🏟️ Sports Digest - {stamp}\n━━━━━━━━━━━━━━━━━━━━\n\n{todays_games}"
 
     send_discord_webhook(webhook_url, body)
     print("✅ Posted sports digest to Discord!")
