@@ -21,7 +21,7 @@ def _split_message(text: str, limit: int = DISCORD_MAX):
 
 def send_discord_webhook(webhook_url: str, body: str):
     if not webhook_url or "discord.com/api/webhooks" not in webhook_url:
-        raise ValueError("Webhook URL looks invalid. Your a dumb motherfucker")
+        raise ValueError("Webhook URL looks invalid — check config.json")
 
     for chunk in _split_message(body):
         r = requests.post(webhook_url, json={"content": chunk}, timeout=20)

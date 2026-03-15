@@ -4,7 +4,10 @@ import time
 import random
 import requests
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from zoneinfo import ZoneInfo
+
+_SCRIPT_DIR = Path(__file__).resolve().parent
 
 TEAM_OVERRIDES = {
     "Knicks": "New York Knicks",
@@ -35,7 +38,7 @@ LEAGUE_IDS = {
 REQUEST_DELAY_SECONDS = 0.15
 MAX_RETRIES = 2                 # ✅ hard cap
 MAX_429_SLEEP_SECONDS = 2       # ✅ never wait long
-CACHE_FILE = ".sportsdb_cache.json"
+CACHE_FILE = str(_SCRIPT_DIR / ".sportsdb_cache.json")
 TEAMID_TTL_SECONDS = 30 * 24 * 3600
 EVENTS_TTL_SECONDS = 60 * 60    # ✅ 1 hour cache
 
@@ -122,6 +125,10 @@ def _format_time_local(date_str: str, time_str: str, tz_name: str):
     except Exception:
         return ""
 
+def _has_final_score(event) -> bool:
+    """True only if both home and away scores are present (game is actually finished)."""
+    return _safe_int(event.get("intHomeScore")) is not None and _safe_int(event.get("intAwayScore")) is not None
+
 def _format_final(event):
     home = event.get("strHomeTeam", "?")
     away = event.get("strAwayTeam", "?")
@@ -203,24 +210,15 @@ def _get_past_league_events(session: requests.Session, base_url: str, cache: dic
     _cache_set(cache, key, data)
     return data.get("events") or []
 
-def build_digest_blocks(teams_dict: dict, tz_name: str, api_key: str, top_games_count: int = 3):
+def build_todays_games(teams_dict: dict, tz_name: str, api_key: str) -> str:
+    """Return a single block of today's games for all configured teams."""
     base_url = _base_url(api_key)
     cache = _load_cache()
-
     today_local = datetime.now(ZoneInfo(tz_name)).date()
-    yesterday_local = today_local - timedelta(days=1)
 
-    favorite_names = set()
-    for league, teams in teams_dict.items():
-        for t in teams:
-            favorite_names.add(t.lower())
-            favorite_names.add(TEAM_OVERRIDES.get(t, t).lower())
-
-    favorite_lines = []
-    top_candidates = []
+    lines = []
 
     with requests.Session() as session:
-        # -------- Favorite Teams (minimal calls; skips quietly on rate-limit) --------
         for league, teams in teams_dict.items():
             emoji = LEAGUE_EMOJI.get(league, "🏟️")
 
@@ -233,67 +231,37 @@ def build_digest_blocks(teams_dict: dict, tz_name: str, api_key: str, top_games_
 
                     last_events, next_events = _get_team_last_next(session, base_url, cache, team_id)
 
-                    played_yesterday = None
+                    # Check last_events — API lag can put today's game here
+                    today_event = None
                     for e in last_events:
-                        if _parse_event_date(e.get("dateEvent") or "") == yesterday_local:
-                            played_yesterday = e
+                        if _parse_event_date(e.get("dateEvent") or "") == today_local:
+                            today_event = e
                             break
 
-                    next_soon = _find_next_event_within_days(next_events, today_local, INCLUDE_WITHIN_DAYS)
+                    # Check next_events for today
+                    if not today_event:
+                        for e in next_events or []:
+                            if _parse_event_date(e.get("dateEvent") or "") == today_local:
+                                today_event = e
+                                break
 
-                    if not played_yesterday and not next_soon:
+                    if not today_event:
                         continue
 
-                    if played_yesterday:
-                        final = _format_final(played_yesterday)
+                    # If it has scores already, show as final; otherwise show as upcoming
+                    if _has_final_score(today_event):
+                        final = _format_final(today_event)
                         if final:
-                            favorite_lines.append(f"• {emoji} {t}: {final}")
+                            lines.append(f"• {emoji} {t}: {final}")
                     else:
-                        favorite_lines.append(f"• {emoji} {t}: Next — {_format_upcoming(next_soon, tz_name)}")
+                        lines.append(f"• {emoji} {t}: {_format_upcoming(today_event, tz_name)}")
 
                 except RateLimited:
-                    # ✅ Don’t hang — just skip this team
                     continue
                 except Exception:
                     continue
 
-        if not favorite_lines:
-            favorite_lines.append("• (No favorites played yesterday and none play today/tomorrow — or API limited.)")
+    if not lines:
+        return "• No games today for your teams."
 
-        # -------- Top Games (only 3 requests total; skip if rate-limited) --------
-        for league, league_id in LEAGUE_IDS.items():
-            emoji = LEAGUE_EMOJI.get(league, "🏟️")
-            try:
-                events = _get_past_league_events(session, base_url, cache, league_id)
-            except RateLimited:
-                events = []
-            except Exception:
-                events = []
-
-            for e in events:
-                if _parse_event_date(e.get("dateEvent") or "") != yesterday_local:
-                    continue
-                total = _score_total(e)
-                if total is None:
-                    continue
-
-                home = (e.get("strHomeTeam") or "").lower()
-                away = (e.get("strAwayTeam") or "").lower()
-                is_fav = (home in favorite_names) or (away in favorite_names)
-
-                final = _format_final(e)
-                if not final:
-                    continue
-
-                top_candidates.append({
-                    "is_favorite": is_fav,
-                    "total": total,
-                    "line": f"• {emoji} {league}: {final} (Total {total})"
-                })
-
-    # favorites first, then total desc
-    top_candidates.sort(key=lambda x: (1 if x["is_favorite"] else 0, x["total"]), reverse=True)
-    top_games = top_candidates[:max(1, int(top_games_count))]
-
-    top_games_block = "\n".join(g["line"] for g in top_games) if top_games else "• (Top games unavailable — API limited or no results.)"
-    return "\n".join(favorite_lines), top_games_block
+    return "\n".join(lines)
